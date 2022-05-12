@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>AFALAGi</title>
+<!--        <link rel = "icon" href = "images/finder.png" type = "image/x-icon">-->
+        <script src="js/add_admin.js" defer></script>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div id="pre">
+            
+        </div>
+        <header>
+            <nav>
+                <div id="logo">
+                    <a href="blog_admin.html"><img src="../FrontEnd/images/finder.png"></a>
+                </div>
+                 <div id="menu">
+                    <a class="menu_item" href="blog_admin.html">Completed</a>
+                    <a class="menu_item active" href="blog_admin.html">Blogs</a>
+                </div>
+                <div id="profile">
+                    <a class="menu_item" onclick="logout()">Logout</a>
+                    <div class="account_role">
+                        <p id="account"></p>
+                        <p id="role"></p>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <main>
+                <p>Admins</p>
+                <button id="button" class="add" onclick="addBlog()">Add New Admin</button>
+            </main>
+            <div>
+                <table id="table">
+                    <thead>
+                        <td>No.</td>
+                        <td>First Name</td>
+                        <td>Last Name</td>
+                        <td>Gender</td>
+                        <td>Phone Number</td>
+                        <td>Role</td>
+                        <td>Password</td>
+                        <td>Action</td>
+                    </thead>
+                </table>
+            </div>
+        </section>
+        <div id="overlay" class="overlay">
+            <div id="overlay_section">
+                <p id="welcome">Fill the Infomation</p>
+                <form id="add_admin">
+                    <label class="space">First Name</label>
+                    <input type="text" name="first_name" required class="space">
+                    <label class="space">Last Name</label>
+                    <input type="text" name="last_name" required class="space">
+                    <label class="space">Gender</label>
+                    <select class="space" name="gender">
+                        <option></option>
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                    </select>
+                    <label class="space">Phone Number</label>
+                    <input type="text" name="phone_number" required class="space">
+                    <label class="space">Role</label>
+                    <select class="space" name="role">
+                        <option value="User admin">User admin</option>
+                        <option value="Blog admin">Blog admin</option>
+                    </select>
+                    <label class="space">Password</label>
+                    <input type="text" name="password" required class="space">
+                    <input id="button" class="space" type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+</body>
+</html>

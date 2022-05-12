@@ -1,0 +1,55 @@
+html,body {
+  font-size: 16px;
+  background-color: #FF9500;
+}
+header {
+    width: 100%;
+    height: 100%;
+}
+section {
+    margin: auto; 
+    width: 40%;
+  
+    background-color: #FFFFFF;
+    border-radius: 1em;
+}
+form {
+    padding: 2em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+form input{
+    padding: .5em;
+    border-radius: .5em;
+    border-color: darkgray;
+}
+form select{
+    padding: .5em;
+    border-radius: .5em;
+    border-color: darkgray;
+}
+aside {
+    display: flex;
+    flex-direction: row;
+}
+.space {
+    margin-top: 1em;
+}
+#welcome {
+    font-size: 1.5em;
+    text-align: center;
+}
+#button {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: .5em;
+    background-color: #F16522;
+    border-color: #F16522;
+    border-radius: .8em;
+    color: #FFFFFF;
+}
+#signup {
+    margin-left: 30%;
+}

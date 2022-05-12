@@ -1,0 +1,310 @@
+html,body {
+  font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F6FA;
+ 
+}
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../images/Preloader_11.gif) center no-repeat #fff;
+}
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #FF9500;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+nav div {
+    display: flex;
+    flex-direction: row;
+}
+#logo {
+    padding: 1em;
+    font-size: 1.5em;
+    margin:auto 1em;
+    color: #FFFFFF;
+    font-family: monospace;
+}
+#logo a img {
+    max-width: 4em;
+    max-height: 1.5em;
+}
+#menu {
+    padding: 1em;
+    margin: .7em auto;
+    color: #FFFFFF;
+}
+#profile {
+   padding: 1em;
+    font-size: 1em;
+    margin: .2em auto;
+    color: #FFFFFF;
+    font-family: monospace;
+}
+.menu_item {
+    margin: auto 1em;
+    padding: .1em .5em;
+    font-size: 1.05em;
+    font-family: monospace;
+    background-color: #FF9500;
+    border-radius: .1em;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.menu_item:hover {
+    background-color: limegreen;
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    border-radius: 1em;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: .8em auto;
+    width: 90%;
+}
+
+#tefelagi {
+    width: 90%;
+    margin: .5em auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+#part1  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#part2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+}
+
+#tefelagi_picture {
+    width: 100%;
+    border-radius: .5em;
+}
+
+#check {
+    margin: 2em auto;
+}
+#yesOrno {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+article {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F6FA;
+    border-radius: 1em;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: .5em 1em;
+}
+aside {
+    width: 100%;
+/*    margin: .5em 1%;*/
+}
+aside img {
+   width: 98%;
+    border-radius: 1em;
+}
+.name_place {
+    margin: 0 1em;
+}
+h6 {
+    margin: .5em 1em;
+    font-size: 1em;
+}
+
+.overlay {
+  position: absolute; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 180%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+#overlay_section {
+    margin: auto; 
+    width: 40%;
+    background-color: #FFFFFF;
+    border-radius: 1em;
+}
+form {
+    padding: 0 2em .5em 2em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+form input{
+    padding: .5em;
+    border-radius: .5em;
+    border-color: darkgray;
+}
+form select{
+    padding: .5em;
+    border-radius: .5em;
+    border-color: darkgray;
+}
+.space {
+    margin-top: .4em;
+}
+#welcome {
+    font-size: 1.5em;
+    text-align: center;
+}
+#button {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1em;
+    padding: .5em;
+    background-color: #F16522;
+    border-color: #F16522;
+    border-radius: .8em;
+    color: #FFFFFF;
+}
+
+.no_overlay{
+    display: none;
+}
+
+.tefelagi_article {
+    width: 70%;
+    margin: .5em auto;
+    display: flex;
+    flex-direction: row;
+}
+.tefelagi_article aside img{
+    height: 100%;
+}
+
+
+
+
+#comment_section {
+    width: 60%;
+    margin: .8em auto;
+    
+}
+.comment_button {
+    float: right;
+    margin-bottom: .4em;
+    background-color: #FF9500;
+    border-color: #FF9500;
+    color: white;
+    padding: .4em;
+    border-radius: .2em;
+}
+#comments {
+    display: flex;
+    flex-direction: column;
+    clear: both;
+    
+}
+#comment_replay {
+   margin-top: .5em;
+    
+}
+#comment {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 0.1em 1em;
+    width: 100%;
+    background-color: white;
+    border-radius: 1em;
+    height: 8em;
+}
+#replay {
+    padding: 0.1em 1em;
+    margin-left: 2em;
+    margin-top: .8em;
+    width: 95%;
+    background-color: gray;
+    color: white;
+    border-radius: 1em;
+    height: 8em;
+}
+
+#user_time {
+   
+}
+#comment_time {
+    
+}
+#comment_user {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#comment_message {
+    
+}
+#replay_user {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#replay_time {
+    
+}
+#replay_message {
+    
+}
+
+
+#blog_section{
+    
+}
+
+#blog_section img {
+    width: 30%;
+    margin: auto;
+}
+
+#no_data {
+    text-align: center;
+}
+#title_time {
+    margin-left: 2em;
+}
+#blog_title {
+    font-weight: bold;
+}
+#desc {
+    margin-left: 2em;
+}
+.active {
+    background-color: limegreen;
+}

@@ -1,0 +1,360 @@
+html,body {
+  font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F6FA;
+ 
+}
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../images/Preloader_11.gif) center no-repeat #fff;
+}
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #FF9500;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+nav div {
+    display: flex;
+    flex-direction: row;
+}
+#logo {
+    padding: 1em;
+    font-size: 1.5em;
+    margin:auto 1em;
+    color: #FFFFFF;
+    font-family: monospace;
+}
+#logo a img {
+    max-width: 4em;
+    max-height: 1.5em;
+}
+#menu {
+    padding: 1em;
+    margin: .7em auto;
+    color: #FFFFFF;
+}
+#profile {
+    padding: 1em;
+    font-size: 1em;
+    margin: .2em 0 .2em 10em;
+    color: #FFFFFF;
+    font-family: monospace;
+}
+.menu_item {
+    margin: auto 1em;
+    padding: .1em .5em;
+    font-size: 1.05em;
+    font-family: monospace;
+    background-color: #FF9500;
+    border-radius: .1em;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.active {
+    background-color: limegreen;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.menu_item:hover {
+    background-color: limegreen;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+}
+#blog_div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+main {
+    width: 100%;   
+}
+main button {
+    float: right;
+}
+article {
+    width: 80%;
+    background-color: #FFFFFF;
+    border-radius: 1em;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: .8em auto;
+}
+aside {
+    width: 80%;
+    margin: auto 2em;;
+/*
+    display: flex;
+    flex-direction: row;
+*/
+}
+article img {
+    width: 60%;
+    height: 20em;
+    margin: 1em 5em;
+}
+
+#button {
+    margin-top: 1em;
+    padding: .2em;
+    background-color: #F16522;
+    border-color: #F16522;
+    border-radius: .8em;
+    color: #FFFFFF;
+}
+.account_role{
+    display: flex;
+    flex-direction: column;
+}
+.account_role p {
+    margin: 0;
+    padding: 0;
+}
+
+#blog_title{
+    font-weight:bold;
+}
+
+
+
+.overlay {
+  position: absolute; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 180%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+#overlay_section {
+    margin: auto; 
+    width: 40%;
+    background-color: #FFFFFF;
+    border-radius: 1em;
+}
+form {
+    padding: 0 2em .5em 2em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+form input{
+    padding: .5em;
+    border-radius: .5em;
+    border-color: darkgray;
+}
+form select{
+    padding: .5em;
+    border-radius: .5em;
+    border-color: darkgray;
+}
+.space {
+    margin-top: .4em;
+}
+#welcome {
+    font-size: 1.5em;
+    text-align: center;
+}
+#button {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1em;
+    padding: .5em;
+    background-color: #F16522;
+    border-color: #F16522;
+    border-radius: .8em;
+    color: #FFFFFF;
+}
+
+.no_overlay{
+    display: none;
+}
+
+#blog_section{
+    width: 60%;
+    margin: 1em 20%;
+    background-color: #FFFFFF;
+    padding: .5em;
+    border-radius: 1em;
+}
+
+#blog_section img {
+    width: 30%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    margin: 1em auto;
+    text-align: center;
+    
+}
+
+thead {
+    background-color: #F16522;
+    border-bottom-left-radius: 4em;
+    border-bottom-right-radius: 2em;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #FFFFFF;
+    height: 2em;
+    
+    
+}
+.table_button {
+    margin: auto;
+}
+
+.table_button:hover {
+    background-color: limegreen;
+}
+
+#desc{
+    margin-right: 16em;
+}
+
+.button {
+    margin: 3em;
+}
+
+
+
+#comment_section {
+    width: 60%;
+    margin: .8em auto;
+    
+}
+
+#add_replay {
+    background-color: #FF9500;
+    border-color: #FF9500;
+    color: white;
+    border-radius: .2em;
+    position: relative;
+}
+#comments {
+    display: flex;
+    flex-direction: column;
+    clear: both;
+    
+}
+#comment_replay {
+   margin-top: .5em;
+    
+}
+#comment {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 0.1em 1em;
+    width: 100%;
+    background-color: white;
+    border-radius: 1em;
+    position: relativer;
+}
+#replay {
+    padding: 0.1em 1em;
+    margin-left: 2em;
+    margin-top: .8em;
+    width: 95%;
+    background-color: gray;
+    color: white;
+    border-radius: 1em;
+/*    height: 8em;*/
+}
+
+#user_time {
+   
+}
+#comment_time {
+    
+}
+#comment_user {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#comment_message {
+    
+}
+#replay_user {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#replay_time {
+    
+}
+#replay_message {
+    
+}
+
+
+
+.overlay {
+  position: absolute; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 180%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+#overlay_section {
+    margin:1em auto; 
+    width: 40%;
+    background-color: #FFFFFF;
+    border-radius: 1em;
+}
+form {
+    padding: 0 2em .5em 2em;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+form input{
+    padding: .5em;
+    border-radius: .5em;
+    border-color: darkgray;
+}
+form select{
+    padding: .5em;
+    border-radius: .5em;
+    border-color: darkgray;
+}
+.space {
+    margin-top: .4em;
+}
+#welcome {
+    font-size: 1.5em;
+    text-align: center;
+}
+#title_time {
+    margin-left: 2em;
+}
+#blog_title {
+    font-weight: bold;
+}
+#desc {
+    margin-left: 2em;
+}

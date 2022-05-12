@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>AFALAGi</title>
+        <link rel = "icon" href = "../images/finder.png" type = "image/x-icon">
+        <script src="../js/comment/comment.js" defer></script>
+        <link rel="stylesheet" href="../css/css2.css">
+    </head>
+    <body>
+         <div id="pre">
+            
+        </div>
+        <header>
+            <nav>
+                <div id="logo">
+                    <a href="home.html"><img src="../images/finder.png"></a>
+                </div>
+                <div id="menu">
+                    <a class="menu_item" href="../tefelagi/home.html">Home</a>
+                    <a class="menu_item" href="../tefelagi/searchByBrowse.html">Browse Tefelagi</a>
+                    <a class="menu_item" href="../tefelagi/my_tefelagi.html">My Tefelagi</a>
+                    <a class="menu_item" href="../blog/blog.html">Blog</a>
+                    <a class="menu_item" href="comment.html">Comment</a>
+                </div>
+                <div id="profile">
+                    <a class="menu_item" onclick="logout()">Logout</a>
+                    <p id="account"></p>
+                </div>
+            </nav>
+        </header>
+        <div id="comment_section">
+            <button class="comment_button" onclick="addComment()">Write Comment</button>
+            <div id="comments">
+            </div>
+        </div>
+        <div id="overlay">
+            <div id="overlay_section">
+                
+            </div>
+        </div>
+    </body>
+</html>

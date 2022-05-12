@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>AFALAGi</title>
+        <link rel = "icon" href = "images/finder.png" type = "image/x-icon">
+        <script src="js/add_blog.js" defer></script>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+         <div id="pre">
+            
+        </div>
+         <header>
+            <nav>
+                <div id="logo">
+                    <a href="blog_admin.html"><img src="../FrontEnd/images/finder.png"></a>
+                </div>
+                 <div id="menu">
+                    <a class="menu_item" href="completed.html">Completed</a>
+                    <a class="menu_item active" href="blog_admin.html">Blogs</a>
+                </div>
+                <div id="profile">
+                    <a class="menu_item" onclick="logout()">Logout</a>
+                    <div class="account_role">
+                        <p id="account"></p>
+                        <p id="role"></p>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <main>
+                <button id="button" class="add">Add New Blog</button>
+            </main>
+            <div id="blog_div">
+               
+            </div>
+        </section>
+        <div id="overlay" class="overlay">
+            <div id="overlay_section">
+                <p id="welcome">Fill the Infomation</p>
+                <form id="add_blog">
+                    <label class="space">Blog Title</label>
+                    <input type="text" name="blog_title" required class="space">
+                    <label class="space">Blog Detail</label>
+                    <textarea name="blog_detail" class="space" cols="50" rows="15"></textarea>
+                    <input type="file" required class="space" name="blog_image">
+                    <input id="button" class="space" type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+</body>
+</html>

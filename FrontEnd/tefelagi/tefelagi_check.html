@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>AFALAGi</title>
+        <link rel = "icon" href = "../images/finder.png" type = "image/x-icon">
+        <script src="../js/tefelagi/tefelagi_check.js" defer></script>
+        <link rel="stylesheet" href="../css/css2.css">
+    </head>
+    <body>
+        <div id="pre">
+            
+        </div>
+        <header>
+            <nav>
+                <div id="logo">
+                    <a href="home.html"><img src="../images/finder.png"></a>
+                </div>
+                <div id="menu">
+                    <a class="menu_item" href="home.html">Home</a>
+                    <a class="menu_item" href="searchByBrowse.html">Browse Tefelagi</a>
+                    <a class="menu_item" href="my_tefelagi.html">My Tefelagi</a>
+                    <a class="menu_item" href="../blog/blog.html">Blog</a>
+                    <a class="menu_item" href="../comment/comment.html">Comment</a>
+                </div>
+                <div id="profile">
+                    <a class="menu_item" onclick="logout()">Logout</a>
+                    <p id="account"></p>
+                </div>
+            </nav>
+        </header>
+        <footer></footer>
+        <div id="overlay" class="overlay">
+            <div id="overlay_section">
+                <article class="tefelagi_article">
+                    <aside>
+                        <img id="tefelagi_picture" src="images/375991.jpg">
+                    </aside>
+                    <aside>
+                        <h3 id="tefelagi_full_name">Dereje Seifu</h3>
+                        <h4 id="tefelagi_gender">Gender : Male</h4>
+                        <h5 id="tefelagi_used_place">Used Place</h5>
+                    </aside>
+                </article>
+                <form id="tefelagi_check_form">
+                    <label class="space">Brother name</label>
+                    <input type="text" class="space" name="brother_name">
+                    <label class="space">Sister name</label>
+                    <input type="text" class="space" name="sister_name">
+                    <label class="space">Uncle name</label>
+                    <input type="text" class="space" name="uncle_name">
+                    <label class="space">Aunt name</label>
+                    <input type="text" class="space" name="aunt_name">
+                    <label class="space">Birth Place</label>
+                    <input type="text" class="space" name="birth_place">
+                    <input id="button" type="submit" class="space" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

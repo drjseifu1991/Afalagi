@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>AFALAGi</title>
+        <link rel = "icon" href = "images/finder.png" type = "image/x-icon">
+        <script src="js/blog.js" defer></script>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+         <div id="pre">
+            
+        </div>
+        <header>
+            <nav>
+                <div id="logo">
+                    <a href="blog_admin.html"><img src="../FrontEnd/images/finder.png"></a>
+                </div>
+                 <div id="menu">
+                    <a class="menu_item" href="completed.html">Completed</a>
+                    <a class="menu_item active" href="blog_admin.html">Blogs</a>
+                </div>
+                <div id="profile">
+                    <a class="menu_item" onclick="logout()">Logout</a>
+                    <div class="account_role">
+                        <p id="account"></p>
+                        <p id="role"></p>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <main>
+                <button id="button" class="add" onclick="addBlog()">Add New Blog</button>
+            </main>
+            <div id="blog_div">
+                
+            </div>
+        </section>
+</body>
+</html>
