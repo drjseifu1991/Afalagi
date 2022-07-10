@@ -1,2 +1,2 @@
 # Afalagi
-This project is developed for Nolawit Final Year project, and the project is developed with HTML, CSS, Javascript and PHP.
+Afalagi is Web and mobile based platform developed for connecting families lost each other.
